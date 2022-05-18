@@ -1,0 +1,8 @@
+.output
+.nuxt
+.github
+.firebase
+dist
+node_modules
+nuxt.config.ts
+*.log
