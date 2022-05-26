@@ -7,6 +7,11 @@
 import Vue from 'vue'
 
 export default Vue.extend({
-  name: 'IndexPage'
+  middleware: [ 'index' ],
+  name: 'IndexPage',
+  created () {
+    const age = this.$accessor.age.age
+    this.$accessor.age.hoge()
+  }
 })
 </script>
